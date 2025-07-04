@@ -1,0 +1,62 @@
+/*Main Colors*/
+/*Gray Scale*/
+/*Cards*/
+/*Radius*/
+/*Support Card*/
+.support-card-container {
+  width: 18.75rem;
+  height: 18.75rem;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0.3125rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-out;
+  text-align: center;
+  position: relative;
+  transition: width 0.3s ease-in, height 0.3s ease-in;
+  /*Lottie Player Code*/
+  /*Lottie Script*/
+}
+.support-card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease-out;
+  cursor: pointer;
+}
+.support-card-container:hover::before {
+  width: 70%;
+  height: 70%;
+}
+.support-card-container::before {
+  content: " ";
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  border: 3px solid #ebc015;
+  border-radius: 100%;
+  transition: width 0.3s ease-out, height 0.3s ease-out;
+}
+.support-card-container .support-image-container {
+  background-color: #ebc015;
+  border-radius: 100%;
+  margin: 20% 20% 0 20%;
+  width: 60%;
+  height: 60%;
+}
+.support-card-container .support-frame {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: none;
+}
+.support-card-container .put-down {
+  margin-top: 6%;
+}
