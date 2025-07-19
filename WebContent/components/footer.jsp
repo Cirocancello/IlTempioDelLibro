@@ -7,6 +7,7 @@
 </head>
 <body>
     <footer class="footer-container">
+    
         <div class="footer">
             <div class="side left">
                 <span class="section-title-small footer-title-color">Customer Care</span><br>
@@ -17,7 +18,7 @@
             <div class="middle">
                 <div>
                     <div class="footer-logo-container">
-                        <img class="footer-logo-image" src="<%= getServletContext().getContextPath() + "/assets/img/logo/vlogo.svg"%>" alt="TeraWare" title="TeraWare">
+                        <img class="footer-logo-image" src="<%= getServletContext().getContextPath() + "/assets/img/logo/logo.PNG"%>" alt="TeraWare" title="TeraWare">
                         <span class="footer-logo-text bold title-visibility">Il Tempio Del Digitale</span>
                     </div>
                     <h4 class="center footer-subtitle-text-color">Il digitale che semplifica la tua vita.</h4>

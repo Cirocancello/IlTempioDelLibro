@@ -14,6 +14,7 @@
 </head>
   <body>
   	<%@ include file="../components/navbar.jsp" %>
+  	
     <header class="carousel-container">
       <div class="carousel">
         <div class="carousel-item carousel-item--visible">
@@ -30,7 +31,7 @@
         </div>
 
         <div class="carousel-item">
-          <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/motherboard.jpg" %>" alt="" class="carousel-image">
+          <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/joshua-ng-1sSfrozgiFk-unsplash.jpg" %>" alt="" class="carousel-image">
           <div class="carousel-text-container">
             <h1 class="title">Tutta la potenza del digitale e tua disposizione</h1>
           </div>
@@ -246,6 +247,8 @@
         <h1 style="font-size: 2rem"><i>Il meglio del digitale, scelto per te..</i></h1>
       </div>
     </section>
+
+    
     <%@ include file="../components/footer.jsp" %>
 
     <script
@@ -255,4 +258,5 @@
     <script src="<%= getServletContext().getContextPath() + "/assets/js/carousel.js" %>"></script>
     <script src="<%= getServletContext().getContextPath() + "/assets/js/cart.js" %>"></script>
   </body>
+  
 </html>

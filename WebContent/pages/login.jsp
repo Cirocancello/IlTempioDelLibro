@@ -16,7 +16,7 @@
   <body>
     <div class="form-container">
       <div class="welcome-side">
-        <h3>Benvenuto ne Il Tempio Del Libro!</h3>
+        <h3>Benvenuto ne Il Tempio Del Digitale!</h3>
         <hr class="divider" />
         <p class="small-text">
           Tantissimi titoli, consegna rapida, emozioni infinite.
@@ -33,7 +33,7 @@
       <div class="login-side">
          <form id="loginform" action="<%= getServletContext().getContextPath() + "/login" %>" method="POST">
           <div class="logo-container">
-            <img class="logo" src="../assets/img/logo/vlogo.svg" />
+            <img class="logo" src="../assets/img/logo/logo.PNG" />
             <p class="logo-title">Il Tempio Del Libro!</p>
           </div>
           <input
