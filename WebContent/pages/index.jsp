@@ -16,6 +16,7 @@
   	<%@ include file="../components/navbar.jsp" %>
   	
     <header class="carousel-container">
+    
       <div class="carousel">
         <div class="carousel-item carousel-item--visible">
           <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/andras-vas-Bd7gNnWJBkU-unsplash.jpg" %>" alt="" class="carousel-image">
