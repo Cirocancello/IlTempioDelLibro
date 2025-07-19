@@ -49,7 +49,7 @@
 
     <section class="section-container vertical-structure">
         <p class="section-title title">"Tutto il digitale di cui hai bisogno, in un solo click."</p>
-        <h4 class="subtitle">Benvenuto nel tuo nuovo negozio digitale online.</h4>
+        <h4 class="subtitle">Benvenuto nel tuo nuovo negozio digitale online. Qui trovi ciò di cui hai bisogno</h4>
         <a class="shop-link" href="<%= getServletContext().getContextPath() + "/category?category=all&skip=0&limit=10"%>">SHOP</a>
     </section>
 
