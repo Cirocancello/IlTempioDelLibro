@@ -18,13 +18,13 @@
                 <div>
                     <div class="footer-logo-container">
                         <img class="footer-logo-image" src="<%= getServletContext().getContextPath() + "/assets/img/logo/vlogo.svg"%>" alt="TeraWare" title="TeraWare">
-                        <span class="footer-logo-text bold title-visibility">TeraWare</span>
+                        <span class="footer-logo-text bold title-visibility">Il Tempio Del Digitale</span>
                     </div>
-                    <h4 class="center footer-subtitle-text-color">Best components for the best work</h4>
+                    <h4 class="center footer-subtitle-text-color">Il digitale che semplifica la tua vita.</h4>
                 </div>
                 <div class="useful-visibility-first">
-                    <p class=" paragraph bold footer-subtitle-text-color">TeraWare, unity in diversity - All right reserved </p>
-                    <span class="small-text center footer-subtitle-text-color">&copy;2021 TeraWare</span>
+                    <p class=" paragraph bold footer-subtitle-text-color">Il Tempio Del Digitale, unity in diversity - All right reserved </p>
+                    <span class="small-text center footer-subtitle-text-color">&copy;2025 Il Tempio Del Digitale</span>
                 </div>
             </div>
             <div class="side useful-align">
@@ -35,8 +35,8 @@
                 <a class="footer-social-link" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
             <div class="useful-visibility-second">
-                <p class="paragraph bold">TeraWare, unity in diversity - All right reserved </p>
-                <span class="small-text">&copy;2021 TeraWare</span>
+                <p class="paragraph bold">Il Tempio Del Digitale, unity in diversity - All right reserved </p>
+                <span class="small-text">&copy;2025 Il Tempio Del Digitale</span>
             </div>
         </div>
     </footer>

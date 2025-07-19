@@ -17,22 +17,22 @@
     <header class="carousel-container">
       <div class="carousel">
         <div class="carousel-item carousel-item--visible">
-          <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/pc.jpg" %>" alt="" class="carousel-image">
+          <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/andras-vas-Bd7gNnWJBkU-unsplash.jpg" %>" alt="" class="carousel-image">
           <div class="carousel-text-container">
-            <h1 class="title">GTX, Tutta la potenza di Nvidia</h1>
+            <h1 class="title">Prodotti digitali, risultati reali.</h1>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/bitcoin.jpg" %>" alt="" class="carousel-image">
+          <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/balkouras-nicos-ncOQxZe8Krw-unsplash.jpg" %>" alt="" class="carousel-image">
           <div class="carousel-text-container">
-            <h1 class="title">Il Bitcoin e come funziona</h1>
+            <h1 class="title">Creatività e tecnologia, a portata di mano.</h1>
           </div>
         </div>
 
         <div class="carousel-item">
           <img src="<%= getServletContext().getContextPath() + "/assets/img/index/carousel/motherboard.jpg" %>" alt="" class="carousel-image">
           <div class="carousel-text-container">
-            <h1 class="title">Cervello e... corpo</h1>
+            <h1 class="title">Tutta la potenza del digitale e tua disposizione</h1>
           </div>
         </div>
 
@@ -48,8 +48,8 @@
     </header>
 
     <section class="section-container vertical-structure">
-        <p class="section-title title">"Ogni Libro è un Viaggio. Parti da Qui."</p>
-        <h4 class="subtitle">Benvenuto nella tua nuova libreria digitale.</h4>
+        <p class="section-title title">"Tutto il digitale di cui hai bisogno, in un solo click."</p>
+        <h4 class="subtitle">Benvenuto nel tuo nuovo negozio digitale online.</h4>
         <a class="shop-link" href="<%= getServletContext().getContextPath() + "/category?category=all&skip=0&limit=10"%>">SHOP</a>
     </section>
 
@@ -214,28 +214,28 @@
       <h4 class="subtitle">Il Team di ingegneri e designer che ha reso possibile tutto questo</h4>
       <div class="card-container">
         <a href="#" class="collaborator-card">
-          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/scognamiglio.jpg" %>" alt="">
+          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/giovanni.jpg" %>" alt="">
           <div class="collaborator-text-container">
-            <h3 class="collaborator-title">Antonio Scognamiglio</h3>
+            <h3 class="collaborator-title">Giovanni Cancello</h3>
           </div>
         </a>
         <a href="#" class="collaborator-card">
-          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/gioia.jpg" %>" alt="">
+          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/luca.jpg" %>" alt="">
           <div class="collaborator-text-container">
-            <h3 class="collaborator-title">Domenico Antonio Gioia</h3>
+            <h3 class="collaborator-title">Luca Cancello</h3>
           </div>
         </a>
         <div class="break"></div>
         <a href="#" class="collaborator-card">
-          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/esposito.jpg" %>" alt="">
+          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/vincenzo.jpg" %>" alt="">
           <div class="collaborator-text-container">
-            <h3 class="collaborator-title">Manuela Esposito</h3>
+            <h3 class="collaborator-title">Vincenzo Cancello</h3>
           </div>
         </a>
         <a href="#" class="collaborator-card">
-          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/scorziello.jpg" %>" alt="">
+          <img class="collaborator-image" src="<%= getServletContext().getContextPath() + "/assets/img/index/noi/nadia.jpg" %>" alt="">
           <div class="collaborator-text-container">
-            <h3 class="collaborator-title">Giovanni Scorziello</h3>
+            <h3 class="collaborator-title">Nadia Rinaldi</h3>
           </div>
         </a>
       </div>
@@ -243,7 +243,7 @@
 
     <section class="section-container vertical-structure">
       <div class="quote-container">
-        <h1 style="font-size: 2rem"><i>Trasformiamo le idee dei nostri clienti in prodotti unici.</i></h1>
+        <h1 style="font-size: 2rem"><i>Il meglio del digitale, scelto per te..</i></h1>
       </div>
     </section>
     <%@ include file="../components/footer.jsp" %>

@@ -12,7 +12,7 @@
   <%@ include file="../components/navbar.jsp" %>
 	
     <h3>Continua a compilare i campi del form seguente:</h3>
-    <form action="/TeraWere_Site/install" method="post">
+    <form action="/install" method="post">
       <fieldset>
         <legend class="paragraph">
           <b>Dati societ&agrave; :</b>
@@ -21,7 +21,7 @@
         <input
           type="text"
           name="nomesocieta"
-          placeholder="TeraWare	"
+          placeholder="Il Tempio Del Digitale	"
           required
         /><br />
         <label class="paragraph">Email:</label>

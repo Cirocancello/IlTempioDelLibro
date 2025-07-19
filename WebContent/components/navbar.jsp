@@ -36,8 +36,8 @@
                 </li>
             </ul>
             <a class="logo-container" href="<%= getServletContext().getContextPath() + "/pages/index.jsp" %>">
-                <img class="nav-logo" src="<%= getServletContext().getContextPath() + "/assets/img/logo/vlogo.svg" %>"/>
-                <span class="logo-title">TeraWare</span>
+                <img class="nav-logo" src="<%= getServletContext().getContextPath() + "/assets/img/logo/logo.PNG" %>"/>
+                <span class="logo-title">IL Tempio Del Digitale</span>
             </a>
             <ul class="nav-menu">
             <% if (user != null && user.getRole() == 1) { %>
@@ -66,50 +66,36 @@
                 </ul>
             </li>
             <li class="mobile-dropdown-item" onclick="showDetails(1);">
-                <span class="section-title-super-small inside-list-color inside-list-position">Assembly</span>
+                <span class="section-title-super-small inside-list-color inside-list-position">Smartphone</span>
                 <ul class="details-list hide">
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=cpu&skip=0&limit=10"%>">CPU</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=scheda%20madre&skip=0&limit=10"%>">Motherboard</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=ram&skip=0&limit=10"%>">RAM</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=scheda%20video&skip=0&limit=10"%>">Video Cards</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=ssd&skip=0&limit=10"%>">SSD</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=hdd&skip=0&limit=10"%>">HDD</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=alimentatore&skip=0&limit=10"%>">Power Suppliers</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=dissipatore&skip=0&limit=10"%>">Heatsinks</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=case&skip=0&limit=10"%>">Case</a></li>
+                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=cpu&skip=0&limit=10"%>">Smartphone</a></li>
                 </ul>
             </li>
             <li class="mobile-dropdown-item" onclick="showDetails(2);">
-                <span class="section-title-super-small inside-list-color inside-list-position">Pre-Assembled</span>
+                <span class="section-title-super-small inside-list-color inside-list-position">Tablet</span>
                 <ul class="details-list hide">
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=preassemblati&skip=0&limit=10"%>">Our Set-Ups</a></li>
+                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=tablet&skip=0&limit=10"%>">Tablet</a></li>
                 </ul>
             </li>
             <li class="mobile-dropdown-item" onclick="showDetails(3);">
-                <span class="section-title-super-small inside-list-color inside-list-position">Peripherials</span>
+                <span class="section-title-super-small inside-list-color inside-list-position">Notebook</span>
                 <ul class="details-list hide">
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=mouse&skip=0&limit=10"%>">Mouse</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=tastiera&skip=0&limit=10"%>">Keyboard</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=monitor&skip=0&limit=10"%>">Monitor</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=cuffie&skip=0&limit=10"%>">Headphones</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=microfono&skip=0&limit=10"%>">Microphones</a></li>
+                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=notebook&skip=0&limit=10"%>">Notebook</a></li>
                 </ul>
             </li>
             <li class="mobile-dropdown-item" onclick="showDetails(4);">
-                <span class="section-title-super-small inside-list-color inside-list-position">Software</span>
+                <span class="section-title-super-small inside-list-color inside-list-position">Pc</span>
                 <ul class="details-list hide">
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=audio&skip=0&limit=10"%>">Audio</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=video&skip=0&limit=10"%>">Video</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=immagini&skip=0&limit=10"%>">Images</a></li>
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=office&skip=0&limit=10"%>">Office</a></li>
+                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=pc&skip=0&limit=10"%>">Pc</a></li>
                 </ul>
             </li>
             <li class="mobile-dropdown-item" onclick="showDetails(5);">
-                <span class="section-title-super-small inside-list-color inside-list-position">Games</span>
+                <span class="section-title-super-small inside-list-color inside-list-position">Smartwatch</span>
                 <ul class="details-list hide">
-                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=gioco&skip=0&limit=10"%>">All Games</a></li>
+                    <li><a class="small-text details-link bold" href="<%= getServletContext().getContextPath() + "/category?category=smartwatch&skip=0&limit=10"%>">Smartwatch</a></li>
                 </ul>
-            </li>
+            </li>            
+            
             <li class="mobile-dropdown-item"><a class="section-title-super-small hide" href="<%= getServletContext().getContextPath() + "/pages/our_story.jsp" %>">Our Story</a></li>
             <li class="mobile-dropdown-item"><a class="section-title-super-small hide" href="<%= getServletContext().getContextPath() + "/pages/origins.jsp" %>">Origins</a></li>
             <li class="mobile-dropdown-item"><a class="section-title-super-small hide cartNumber" href="<%= getServletContext().getContextPath() + "/pages/carrello.jsp"%>">Cart <%= cartNav != null && cartNav.getNumProdotti() != 0 ? "(" + cartNav.getNumProdotti() + ")" : "" %></a></li>

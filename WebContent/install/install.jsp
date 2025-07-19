@@ -12,7 +12,7 @@
   	<%@ include file="../components/navbar.jsp" %>
 	
     <h3>Compila i seguenti campi:</h3>
-    <form action="/TeraWere_Site/install" method="POST">
+    <form action="/install" method="POST">
       <fieldset>
         <legend>
           <i><b>Credenziali database</b></i>
