@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <%@page import="model.bean.ProdottoBean" %>
-    <%@page import="model.ProdottoModel" %>
+    <%@page import="dao.ProdottoModel" %>
     <%@page import="java.util.ArrayList" %>
     <link rel="stylesheet" href="<%= getServletContext().getContextPath() + "/assets/css/global.css"%>">
     <link rel="stylesheet" href="<%= getServletContext().getContextPath() + "/assets/css/index.css"%>">

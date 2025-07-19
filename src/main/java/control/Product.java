@@ -5,11 +5,12 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.ProdottoModel;
 import model.bean.ProdottoBean;
 
 import java.io.IOException;
 import java.sql.SQLException;
+
+import dao.ProdottoModel;
 
 /**
  * Servlet implementation class Product

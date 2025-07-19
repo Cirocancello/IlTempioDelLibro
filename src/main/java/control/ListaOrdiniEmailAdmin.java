@@ -5,14 +5,15 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.OrdineModel;
-import model.UtenteModel;
 import model.bean.OrdineBean;
 import model.bean.UtenteBean;
 
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import dao.OrdineModel;
+import dao.UtenteModel;
 
 /**
  * Servlet implementation class ListaOrdiniEmailAdmin

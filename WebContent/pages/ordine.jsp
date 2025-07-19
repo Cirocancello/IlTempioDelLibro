@@ -7,8 +7,8 @@
     <%@ page import="java.io.FileNotFoundException" %>
     <%@ page import="model.bean.UtenteBean" %>
     <%@ page import="model.bean.OrdineBean" %>
-    <%@page import="model.OrdineModel"%>
-    <%@page import="model.ProdottoOrdineModel"%>
+    <%@page import="dao.OrdineModel"%>
+    <%@page import="dao.ProdottoOrdineModel"%>
     <%@page import="model.bean.ProdottoOrdineBean"%>
     <%@page import="java.util.ArrayList"%>
     <%@page import="java.util.UUID"%>

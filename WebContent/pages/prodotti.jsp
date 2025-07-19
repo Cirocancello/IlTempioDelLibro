@@ -7,7 +7,7 @@
     <%@page import="java.util.ArrayList"%>
     <%@page import="model.bean.ProdottoBean" %>
     <%@page import="model.interf.IBean" %>
-    <%@ page import="model.Cart"%>
+    <%@ page import="dao.Cart"%>
     <%@ page import="model.helper.CartEntry"%>
     <%! @SuppressWarnings("unchecked") %>
     <link rel="stylesheet" href="<%= getServletContext().getContextPath() + "/assets/css/products.css"%>">

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html;"%>
-<%@ page import="model.Cart"%>
+<%@ page import="dao.Cart"%>
 <%@ page import="model.helper.CartEntry"%>
 <%@ page import="java.util.Iterator"%>
 <%

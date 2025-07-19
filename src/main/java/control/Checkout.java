@@ -5,10 +5,6 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.Cart;
-import model.OrdineModel;
-import model.ProdottoModel;
-import model.ProdottoOrdineModel;
 import model.bean.OrdineBean;
 import model.bean.ProdottoOrdineBean;
 import model.bean.UtenteBean;
@@ -20,6 +16,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.UUID;
+
+import dao.Cart;
+import dao.OrdineModel;
+import dao.ProdottoModel;
+import dao.ProdottoOrdineModel;
 
 /**
  * Servlet implementation class Checkout

@@ -6,8 +6,9 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
-import model.Cart;
-import model.ProdottoModel;
+
+import dao.Cart;
+import dao.ProdottoModel;
 import model.bean.ProdottoBean;
 import model.helper.CartEntry;
 

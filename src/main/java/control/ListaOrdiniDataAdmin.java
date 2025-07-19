@@ -5,7 +5,6 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.OrdineModel;
 import model.bean.OrdineBean;
 
 import java.io.IOException;
@@ -14,6 +13,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
+import dao.OrdineModel;
 
 /**
  * Servlet implementation class ListaOrdiniDataAdmin

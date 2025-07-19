@@ -1,5 +1,5 @@
-<%@page import="model.UtenteModel"%>
-<%@page import="model.ProdottoOrdineModel"%>
+<%@page import="dao.UtenteModel"%>
+<%@page import="dao.ProdottoOrdineModel"%>
 <%@page import="java.util.ArrayList" %>
 <%@page import="model.bean.*" %>
 <%@page import="java.text.SimpleDateFormat" %>

@@ -1,7 +1,7 @@
 package model.helper;
 
 
-import model.Cart;
+import dao.Cart;
 import model.bean.ProdottoBean;
 
 public class CartEntry {

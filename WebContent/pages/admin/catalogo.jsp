@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<%@ page import="model.ProdottoModel"%>
+<%@ page import="dao.ProdottoModel"%>
 <%@ page import="model.bean.ProdottoBean"%>
 <!DOCTYPE html>
 <html>

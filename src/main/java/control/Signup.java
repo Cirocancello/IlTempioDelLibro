@@ -7,7 +7,6 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.Part;
-import model.UtenteModel;
 import model.bean.UtenteBean;
 
 import java.io.File;
@@ -16,6 +15,8 @@ import java.sql.SQLException;
 import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.ArrayList;
 import java.util.Date;
+
+import dao.UtenteModel;
 
 @WebServlet("/signup")
 @MultipartConfig(

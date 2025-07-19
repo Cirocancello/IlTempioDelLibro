@@ -7,7 +7,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.annotation.MultipartConfig;
 import jakarta.servlet.http.Part;
-import model.ProdottoModel;
 import model.bean.ProdottoBean;
 
 import java.io.File;
@@ -15,6 +14,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
+
+import dao.ProdottoModel;
 
 /**
  * Servlet implementation class AggiornaProdotto

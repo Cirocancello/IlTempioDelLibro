@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html;"%>
 <!DOCTYPE html>
 <%@page import="model.bean.ProdottoBean" %>
-<%@page import="model.ProdottoModel" %>
+<%@page import="dao.ProdottoModel" %>
 <%@page import="java.util.ArrayList" %>
 <%! @SuppressWarnings("unchecked") %>
 <html>
