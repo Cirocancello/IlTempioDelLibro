@@ -36,7 +36,7 @@ public class DatabaseManager {
 		boolean first
 	) {
 		if (instance == null) instance =
-			new DatabaseManager(host, user, password, port, first ? "" : "teraware");
+			new DatabaseManager(host, user, password, port, first ? "" : "td");
 	}
 
 	/**
